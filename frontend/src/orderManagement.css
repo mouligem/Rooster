@@ -1,0 +1,81 @@
+/* OrderManagement.css */
+
+.order-management-container {
+    padding: 20px;
+    font-family: Arial, sans-serif;
+  }
+  
+  h2 {
+    margin-bottom: 20px;
+  }
+  
+  h3{
+    color: #000;
+  }
+  .orders-table {
+    width: 100%;
+    border-collapse: collapse;
+  }
+  
+  .orders-table th, .orders-table td {
+    border: 1px solid #dddddd;
+    padding: 8px;
+    text-align: left;
+  }
+  
+  .orders-table th {
+    background-color: #606060;
+    color: #000000;
+  }
+  
+  .orders-table tr:nth-child(even) {
+    background-color: #000000;
+    color:white;
+  }
+  .orders-table tr:nth-child(odd) {
+    background-color: #410101;
+    color: white;
+  }
+  
+  .btns{
+    padding: 5px;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-weight: bolder;
+    margin-left: 2rem;
+    border-radius: 5px;
+    color: bisque;
+    background-image: linear-gradient(to right, rgb(0, 0, 0) , rgb(0, 0, 0));
+  }
+
+  .ip{
+    border-radius: 5px;
+    background-color: rgb(250, 250, 250);
+    font-family: monospace;
+    font-weight: lighter;
+    margin-bottom: 1rem;
+    padding: 3px;
+    
+  }
+  .abg{
+    /* background-image: linear-gradient(to right, rgba(255, 0, 0, 0.618) , rgba(255, 217, 0, 0.711)); */
+    background-color: #f4f4f4;
+    height: 781px;
+  }
+  
+  .place{
+    display: flex;
+    justify-content: flex-end;
+    column-gap: 67rem;
+  }
+
+  .searchbar{
+    display: flex;
+    justify-content: space-between;
+  }
+
+  .shortitems{
+    margin-top: 20px;
+  }
+  /* .counts{
+    text-align: left;
+  } */

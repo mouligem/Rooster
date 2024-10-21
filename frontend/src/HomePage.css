@@ -1,0 +1,190 @@
+/* Reset some default styles */
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  font-family: 'Arial', sans-serif;
+  background-color: #f9f9f9;
+  color: #333;
+}
+
+/* Header styles */
+header {
+   background-image: linear-gradient(to right, rgba(243, 121, 55, 0.656) , rgba(243, 238, 89, 0.673));   padding: 20px; 
+  /* background-image: url("https://static.vecteezy.com/system/resources/thumbnails/015/485/730/small/old-dirty-abandoned-coffee-shop-with-mess-free-vector.jpg"); */
+  /* text-align: center; */
+  border-radius: 25px;
+  display: flex;
+  justify-content: space-between;
+}
+.logo img {
+  height: 50px; 
+  width: auto; 
+}
+
+
+nav ul {
+  list-style-type: none;
+  padding: 0;
+}
+
+nav ul li {
+  display: inline;
+  margin: 0 15px;
+}
+
+nav ul li a {
+  text-decoration: none;
+  color: #333;
+  font-weight: bold;
+}
+
+/* Hero Section styles */
+.hero {
+  /* background: url('https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQFCbZMYLW3BJNJMbwcpwBNgCNaTfB6daK6rA&usqp=CAU') no-repeat center center/cover; */
+  color: rgb(255, 252, 252);
+  text-align: center;
+  padding: 60px 20px;
+}
+
+.hero h2 {
+  font-size: 2.5em;
+}
+
+.hero p {
+  font-size: 1.2em;
+  margin: 20px 0;
+}
+
+.hero button {
+  background-color: #000000ac;
+  color: white;
+  border: none;
+  padding: 10px 20px;
+  cursor: pointer;
+  border-radius: 5px;
+}
+
+/* Section styles */
+section {
+  padding: 40px 20px;
+  text-align: center;
+}
+
+h3 {
+  margin-bottom: 10px;
+  color: #000000;
+  background-color: #fdfbfb71;
+  border-radius: 10px;
+  height: fit-content;
+  width: fit-content;
+  margin-left: auto;
+  margin-right: auto;
+  font-family: 'Roboto', sans-serif;
+}
+
+ .menu-items {
+  display: flex;
+  justify-content: space-around;
+  margin-top: 20px;
+  transition: 4s;
+} 
+
+/* Menu item styles */
+.menu-item {
+  background: #f2db90ca;
+  border: 1px solid #e2e2e2;
+  border-radius: 25px;
+  padding: 20px;
+  width: 30%;
+  box-shadow: 0 2px 5px rgba(19, 19, 19, 0.1);
+}
+
+.menu-item h4 {
+  color: #333;
+}
+
+/* Testimonials styles */
+.testimonials {
+  margin: 20px 0;
+}
+
+blockquote {
+  font-style: italic;
+  margin: 15px 0;
+  color: #555;
+}
+
+/* Footer styles */
+footer {
+  background-color: #dbe4e48d;
+  padding: 20px;
+  text-align: center;
+  border-radius: 25px;
+}
+
+footer nav ul {
+  display: flex;
+  justify-content: center;
+  margin-bottom: 15px;
+}
+
+footer nav ul li {
+  margin: 0 10px;
+}
+
+footer form {
+  margin-top: 10px;
+}
+
+footer input[type="email"] {
+  padding: 5px;
+  border: 1px solid #ccc;
+  border-radius: 5px;
+  margin-right: 10px;
+}
+
+footer button {
+  background-color: #ff5733;
+  color: white;
+  border: none;
+  padding: 5px 15px;
+  cursor: pointer;
+  border-radius: 5px;
+}
+.f-bg {
+   background-image: url('https://img.freepik.com/free-photo/lamp-design-with-digital-art-style_23-2151153879.jpg?t=st=1721195245~exp=1721198845~hmac=2355daff1963760c0bf0b1dd401676ad1b7f14b63b4fb5d6435d8651257b9269&w=1060');  
+  /* background-image: linear-gradient(to right, rgb(211, 150, 150) , rgb(183, 197, 134));   padding: 20px;  */
+  background-size: cover;
+  background-attachment: fixed;
+  background-position: center;
+  background-repeat: no-repeat;
+  min-height: 100vh;
+  padding: 20px;
+  color: white; 
+}
+
+header {
+  background-color: rgba(255, 204, 0, 0.8); 
+  padding: 20px;
+  text-align: center;
+}
+
+
+button{
+  border-radius: 10px;
+  background-color: antiquewhite;
+}
+.hover01 figure img {
+	-webkit-transform: scale(1);
+	transform: scale(1);
+	-webkit-transition: .3s ease-in-out;
+	transition: .3s ease-in-out;
+}
+.hover01 figure:hover img {
+	-webkit-transform: scale(1.3);
+	transform: scale(1.3);
+}

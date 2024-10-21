@@ -1,0 +1,181 @@
+.bg1 {
+  /* background-color: #ffe9fa; */
+  background-image: linear-gradient(to left, #f4eba0, #ffffff);
+  padding: 20px;
+  border-radius: 8px;
+}
+
+h2, h3, h4 {
+  color: #333;
+}
+
+.selection-container {
+  margin-bottom: 20px;
+  background-color: #000000;
+  border-radius: 10px;
+}
+.selection-container h3{
+  color: bisque;
+  text-align: center;
+  padding: 5px;
+}
+
+.selection-container h4{
+  font-size: 20px;
+  padding:10px;
+  color: bisque;
+}
+
+.table-grid {
+  display: grid;
+  grid-template-columns: repeat(5, 1fr); /* 5 columns */
+  gap: 10px; 
+  padding: 10px;
+}
+
+.dining-hall-grid {
+  display: flex;
+  justify-content: left; /* Distribute dining halls evenly */
+}
+
+.party-hall-grid{
+  display: flex;  
+  justify-content: left;
+}
+
+.party-hall-grid button,
+.dining-hall-grid button,
+.table-grid button{
+  width: 100px;
+  padding: 10px 20px;
+  border: none;
+  background-color: #000000;
+  color: white;
+  border-radius: 4px;
+  cursor: pointer;
+}
+.table-grid button:hover{
+  background-color: #440202;
+  color: white;
+}
+
+.divider-dining-party{
+  display: flex;
+  justify-content: left;
+  padding: 10px;
+}
+
+.option-item {
+  background: #fff98b;
+  padding: 10px;
+  border: 1px solid #ccc;
+  border-radius: 5px;
+  text-align: center;
+}
+
+.selected {
+  background-color: #e0ffe0;
+}
+
+.user-details {
+  margin-top: 20px;
+}
+
+.user-details label {
+  display: block;
+  margin-bottom: 10px;
+}
+
+.cart-details {
+  margin-top: 20px;
+  background: #fff;
+  padding: 10px;
+  border-radius: 5px;
+}
+
+.party-hall-option{
+  margin-left: 20px;
+}
+
+.party-hall-option button{
+  margin-left: 10px; 
+  background-color: #000000;
+  color: white; 
+}
+.party-hall-option button:hover{
+  background-color: #440202;
+  color: white;
+}
+.dining-hall-grid button{
+  background-color: #000000;
+  color: white;
+}
+.dining-hall-grid button:hover{
+  background-color: #440202;
+  color: white;
+}
+.table-options button{
+  margin-left: 10px;  
+}
+
+.dining-hall-options button{
+  margin-left: 10px;  
+}
+
+.vertical-line {
+  width: 2px; /* Width of the vertical line */
+  background-color: #ddd; /* Color of the line */
+  height: auto; /* Automatically adjust height */
+  margin: 0 20px; /* Space around the line */
+  margin-left: 290px;
+} 
+
+.times{
+  padding: 10px 20px;
+  border: none;
+  background-color: #000000;
+  color: white;
+  border-radius: 4px;
+  cursor: pointer;
+  width: 200px;
+  height: 40px;
+}
+
+.submit{
+  padding: 10px 20px;
+  border: none;
+  background-color: #000000;
+  color: white;
+  border-radius: 4px;
+  cursor: pointer;
+  width: 200px;
+  height: 40px;
+}
+
+.cart{
+  padding: 10px 20px;
+  border: none;
+  background-color: #000000;
+  color: white;
+  border-radius: 4px;
+  cursor: pointer;
+  width: 200px;
+  height: 40px;
+}
+
+.button-container {
+  display: flex;
+  justify-content: center; /* Adjusts spacing between buttons */
+  margin-top: 10px;
+  gap: 30px; /* Optional: Adds space above the buttons */
+}
+
+.button-container button {
+  margin-right: 10px; /* Optional: Adds space between buttons */
+}
+
+
+.time-slots{
+  display: flex;
+  gap: 10px;
+}

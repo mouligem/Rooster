@@ -1,0 +1,56 @@
+.users-container {
+    padding: 20px;
+    font-family: Arial, sans-serif;
+}
+
+h2 {
+    margin-bottom: 20px;
+}
+
+.orders-table {
+    width: 100%;
+    border-collapse: collapse;
+}
+
+.orders-table th, .orders-table td {
+    border: 1px solid #dddddd;
+    padding: 8px;
+    text-align: left;
+}
+
+.orders-table th {
+    background-color: #606060;
+    color: #000000;
+}
+
+.orders-table tr:nth-child(even) {
+    background-color: #000000;
+    color: white;
+}
+
+.orders-table tr:nth-child(odd) {
+    background-color: #410101;
+    color: white;
+}
+
+.ip {
+    border-radius: 5px;
+    background-color: rgb(250, 250, 250);
+    font-family: monospace;
+    font-weight: lighter;
+    margin-bottom: 1rem;
+    padding: 3px;
+    width: 100%; /* Ensure the input spans the width */
+    max-width: 300px; /* Optional: limit the width */
+}
+
+.abg {
+    background-color: #f4f4f4;
+    height: auto; /* Allow height to adjust based on content */
+}
+
+.searchbar {
+    display: flex;
+    justify-content: flex-start;
+    margin-bottom: 20px;
+}
